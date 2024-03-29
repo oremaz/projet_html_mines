@@ -1,0 +1,122 @@
+<!-- index.html -->
+
+<!DOCTYPE html> 
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vive le Tennis - Accueil</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>J'aime le Tennis et l'Info</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="siteweb.html">Accueil</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li> 
+        </ul>
+    </nav>
+
+    <section id="presentation">
+        <section id="presentation">
+            <p>Pourquoi les plongeurs sont-ils de si mauvais comédiens ?</p>
+
+            <p>Parce qu'ils manquent toujours de profondeur dans leur performance !</p>
+        
+            <p>Bonjour à tous, je suis Orel MAZOR, le cerveau derrière ce site incroyablement divertissant (ou du moins, j'essaie !).</p>
+            
+            <p>Originaire de Paris, je suis un véritable passionné de tennis et de sport en général. Mes journées sont aussi remplies que la boîte de biscuits dans la cuisine (et c'est dire !), surtout lorsque je m'entraîne à faire des amortis aussi délicieux que des cookies fraîchement sortis du four.</p>
+        </section>
+        
+        
+    </section>
+
+    <section id = "tableau">
+        <h2>Mon top 5 des Joueurs de Tennis</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Prénom</th>
+                    <th>Nom</th>
+                    <th>Photo</th>
+                    <th>Âge</th>
+                    <th>Pays d'Origine</th>
+                    <th>Classement ATP</th>
+                    <th>Highlights</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Novak</td>
+                    <td>Djokovic</td>
+                    <td><img src="djoko.jpeg" alt="Djokovic" style="width: 100%; max-width: 200px;"></td>
+                    <td>36</td>
+                    <td>Serbie</td>
+                    <td>1</td>
+                    <td><a href="https://www.facebook.com/TennisTV/videos/novak-djokovics-top-20-atp-career-points/521049186235070/" target="_blank">YT</a></td>
+                    <td>L'un des plus grands joueurs de tennis de tous les temps, Novak Djokovic est réputé pour sa polyvalence sur toutes les surfaces et sa détermination sur le court.</td>
+                </tr>
+                <tr>
+                    <td>Benoît</td>
+                    <td>Paire</td>
+                    <td><img src="paire.jpeg" alt="Paire" style="width: 100%; max-width: 200px;"></td>
+                    <td>34</td>
+                    <td>France</td>
+                    <td>111</td>
+                    <td><a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DD1o8hu4j7jY&psig=AOvVaw3MrU9jxb2RcGnxFnjQMmWZ&ust=1708786527881000&source=images&cd=vfe&opi=89978449&ved=0CBIQjhxqFwoTCJCl0ILcwYQDFQAAAAAdAAAAABAP" target="_blank">YT</a></td>
+                    <td>Benoît Paire, le joueur français au style de jeu unique, est connu pour son talent créatif sur le court et sa personnalité excentrique en dehors du court.</td>
+                </tr>
+                <tr>
+                    <td>Nick</td>
+                    <td>Kyrgios</td>
+                    <td><img src="kyrgios.jpeg" alt="Kyrgios" style="width: 100%; max-width: 200px;"></td>
+                    <td>28</td>
+                    <td>Australie</td>
+                    <td>-</td>
+                    <td><a href="https://www.youtube.com/watch?v=_HHcRJ-rPCo" target="_blank">YT</a></td>
+                    <td>Nick Kyrgios, le joueur australien controversé, est réputé pour son jeu puissant et son style de jeu imprévisible qui peut déstabiliser n'importe quel adversaire.</td>
+                </tr>
+                <tr>
+                    <td>Federer</td>
+                    <td>Roger</td>
+                    <td><img src="federer.jpeg" alt="Federer" style="width: 100%; max-width: 200px;"></td>
+                    <td>40</td>
+                    <td>Suisse</td>
+                    <td>Retraité</td>
+                    <td><a href="https://www.youtube.com/watch?v=J8voIyM81zY" target="_blank">YT</a></td>
+                    <td>Légende vivante du tennis, Roger Federer continue d'éblouir le monde par son jeu élégant.</td>
+                </tr>
+                <tr>
+                    <td>Rafael</td>
+                    <td>Nadal</td>
+                    <td><img src="nadal.jpeg" alt="Nadal" style="width: 100%; max-width: 200px;"></td>
+                    <td>37</td>
+                    <td>Espagne</td>
+                    <td>654</td>
+                    <td><a href="https://www.youtube.com/watch?v=9X6ulqsNRhI" target="_blank">YT</a></td>
+                    <td>Roi incontesté de la terre battue, Nadal est connu pour sa combativité exceptionnelle.</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h2>Carte Interactive des Tournois ATP >250 en France</h2>
+        <!-- Inclure le fichier tournaments.js -->
+        <div id="map"></div>
+        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+        <script src="tournaments.js"></script> 
+    </section>>
+
+    <footer>
+        <p>&copy; 2024 Vive le Tennis</p>
+    </footer>
+
+</body>
+</html>
